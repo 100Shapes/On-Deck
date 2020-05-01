@@ -1,0 +1,11 @@
+{
+  "name": "@100shapes/on-deck-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}

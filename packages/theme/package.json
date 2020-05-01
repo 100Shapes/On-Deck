@@ -5,7 +5,16 @@
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "precommit": "lint-staged"
+  },
   "dependencies": {
     "@100shapes/on-deck-core": "^1.0.0"
+  },
+  "lint-staged": {
+    "src/*.js": [
+      "eslint — fix",
+      "git add"
+    ]
   }
 }

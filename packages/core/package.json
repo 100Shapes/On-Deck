@@ -4,7 +4,21 @@
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "eslint.config.js"
+  ],
   "devDependencies": {
-    "mdx-deck": "^4.1.1"
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-equimper": "*",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "mdx-deck": "^4.1.1",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "husky": "^4.2.5"
   }
 }

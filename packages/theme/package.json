@@ -1,10 +1,11 @@
 {
-  "name": "@100shapes/on-deck-core",
+  "name": "@100shapes/on-deck-theme",
   "version": "1.0.0",
+  "main": "src/main.js",
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
   "private": false,
-  "devDependencies": {
-    "mdx-deck": "^4.1.1"
+  "dependencies": {
+    "@100shapes/on-deck-core": "^1.0.0"
   }
 }

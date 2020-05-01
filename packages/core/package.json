@@ -5,18 +5,18 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "eslint.config.js"
+    ".eslintrc.js"
   ],
   "devDependencies": {
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-equimper": "*",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
     "mdx-deck": "^4.1.1",
-    "prettier": "^1.14.3"
+    "prettier": "^2.0.5"
   },
   "dependencies": {
     "husky": "^4.2.5"

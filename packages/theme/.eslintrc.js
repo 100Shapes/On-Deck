@@ -1,3 +1,7 @@
+const baseConfig = require("@100shapes/on-deck-core/.eslintrc");
+module.exports = { ...baseConfig };
+
+/*
 module.exports = {
   extends: ["eslint:recommended", "prettier"], // extending recommended config and config derived from eslint-config-prettier
   plugins: ["prettier"], // activating esling-plugin-prettier (--fix stuff)
@@ -20,3 +24,4 @@ module.exports = {
     eqeqeq: ["error", "always"] // adding some custom ESLint rules
   }
 };
+*/

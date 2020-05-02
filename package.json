@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "pre-commit": "lerna run --concurrency 1 --stream precommit"
   },
   "devDependencies": {
     "commitizen": "^4.0.5",

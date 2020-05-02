@@ -6,7 +6,8 @@
   "main": "src/main.js",
   "private": false,
   "scripts": {
-    "lint": "eslint src/ --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "precommit": "lint-staged"
   },
   "dependencies": {

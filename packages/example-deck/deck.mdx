@@ -1,11 +1,7 @@
-import Theme from "@100shapes/on-deck-theme";
+import Theme from '@100shapes/on-deck-theme';
 export const theme = Theme;
 
-import { TestLayout } from "@100shapes/on-deck-layouts";
-
-<pre>{JSON.stringify(Theme, null, 2)}</pre>
-
----
+import { TestLayout, Grid, GridItem } from '@100shapes/on-deck-layouts';
 
 <TestLayout>
 
@@ -15,7 +11,74 @@ import { TestLayout } from "@100shapes/on-deck-layouts";
 
 ---
 
+<Grid>
+<GridItem column="1 / span 6">
+
 ## Anoterh deck
+
+</GridItem>
+
+<GridItem row="2" column="1 / span 3">
+
+## Topic
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+
+</GridItem>
+
+<GridItem row="2" column="4 / span 3">
+
+## Topic
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+
+</GridItem>
+
+</Grid>
+
+---
+
+<Grid justify="flex-end" numOfRows={3}>
+
+<GridItem column="1 / span 6">
+
+## Anoterh deck
+
+</GridItem>
+
+<GridItem row="2" column="1 / span 3">
+
+### Topic
+
+Lorem Ipsum is simply dummy text of.
+
+</GridItem>
+
+<GridItem row="2" column="4 / span 3">
+
+### Topic
+
+Lorem Ipsum is simply dummy text of.
+
+</GridItem>
+
+<GridItem row="3" column="1 / span 3">
+
+### Topic
+
+Lorem Ipsum is simply dummy text of.
+
+</GridItem>
+
+<GridItem row="3" column="4 / span 3">
+
+### Topic
+
+Lorem Ipsum is simply dummy text of.
+
+</GridItem>
+
+</Grid>
 
 ---
 

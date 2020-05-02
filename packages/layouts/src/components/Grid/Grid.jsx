@@ -8,7 +8,8 @@ const Grid = ({ children, justify, numOfRows }) => (
     <Box
       sx={{
         display: 'grid',
-        gridGap: 4,
+        gridColumnGap: 79,
+        gridRowGap: 48,
         gridTemplateColumns: 'repeat(6, 1fr)',
         gridTemplateRows: `repeat(${numOfRows}, min-content)`,
       }}

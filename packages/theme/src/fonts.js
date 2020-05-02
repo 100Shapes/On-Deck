@@ -1,6 +1,22 @@
+import './fonts.css';
+
+const fontSizes = [18, 30, 40, 53.32, 71.0756, 94.7437, 126.293];
+
 const fonts = {
-  body: 'cursive, sans-serif',
-  heading: '"Comic Sans MS", cursive, sans-serif',
+  body: 'Baton Turbo, "Open Sans", sans-serif',
+  heading: 'Brando, Georgia, serif',
+  monospace: 'Corrier, monospace',
 };
 
-export default fonts;
+const textStyles = {
+  small: {
+    fontSize: 0,
+    fontFamily: 'body',
+  },
+};
+
+export default {
+  fonts,
+  fontSizes,
+  textStyles,
+};

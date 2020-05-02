@@ -1,9 +1,9 @@
 import colors from './palette';
 import styles from './styles';
-import fonts from './fonts';
+import fontsConfig from './fonts';
 
 export default {
   colors,
-  fonts,
+  ...fontsConfig,
   styles,
 };

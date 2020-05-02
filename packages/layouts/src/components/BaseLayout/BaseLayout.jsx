@@ -8,11 +8,10 @@ const BaseLayout = ({ children, justify }) => (
   <Flex
     sx={{
       flexDirection: 'column',
+      height: '100%',
       justifyContent: justify,
       p: 6,
-      height: '100%',
       width: '100%',
-      bg: 'blue',
     }}
   >
     <Header />

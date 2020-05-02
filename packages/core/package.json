@@ -1,6 +1,6 @@
 {
   "name": "@100shapes/on-deck-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
   "private": false,
@@ -21,5 +21,6 @@
   },
   "dependencies": {
     "husky": "^4.2.5"
-  }
+  },
+  "gitHead": "1bc9ec3626a00236584b6062d84aa18428c262bd"
 }

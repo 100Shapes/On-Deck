@@ -1,6 +1,6 @@
 {
   "name": "@100shapes/on-deck-example",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Michele Memoli <michele@100shapes>",
   "license": "MIT",
   "private": false,
@@ -8,9 +8,9 @@
     "start": "mdx-deck deck.mdx"
   },
   "dependencies": {
-    "@100shapes/on-deck-core": "^0.1.2",
-    "@100shapes/on-deck-layouts": "^0.1.2",
-    "@100shapes/on-deck-theme": "^0.1.2"
+    "@100shapes/on-deck-core": "^0.1.3",
+    "@100shapes/on-deck-layouts": "^0.1.3",
+    "@100shapes/on-deck-theme": "^0.1.3"
   },
-  "gitHead": "1bc9ec3626a00236584b6062d84aa18428c262bd"
+  "gitHead": "18413079864ae59110584b5e4111a551e374ffac"
 }

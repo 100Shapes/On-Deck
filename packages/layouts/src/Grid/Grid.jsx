@@ -1,29 +1,21 @@
 /** @jsx jsx */
-import { jsx, Box, Flex } from 'theme-ui';
+import { jsx, Box } from 'theme-ui';
+import Base from '../BaseLayout';
 
-const space = 5;
 // eslint-disable-next-line react/prop-types
 const Grid = ({ children, justify, numOfRows }) => (
-  <Flex
-    sx={{
-      flexDirection: 'column',
-      height: '100vh',
-      justifyContent: justify,
-      p: space + 1,
-      width: '100vw',
-    }}
-  >
+  <Base justify={justify}>
     <Box
       sx={{
         display: 'grid',
-        gridGap: space,
+        gridGap: 4,
         gridTemplateColumns: 'repeat(6, 1fr)',
         gridTemplateRows: `repeat(${numOfRows}, min-content)`,
       }}
     >
       {children}
     </Box>
-  </Flex>
+  </Base>
 );
 
 Grid.defaultProps = {

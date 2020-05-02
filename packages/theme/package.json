@@ -1,6 +1,6 @@
 {
   "name": "@100shapes/on-deck-theme",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "main": "src/main.js",
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@100shapes/on-deck-core": "^0.1.3"
+    "@100shapes/on-deck-core": "^0.1.5"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
@@ -17,5 +17,8 @@
       "eslint src/ --fix"
     ]
   },
-  "gitHead": "18413079864ae59110584b5e4111a551e374ffac"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "7ba52f8150a0f57fa6d7a5b14f457aae452688e5"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@100shapes/on-deck-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Michele Memoli <michele@100shapes>",
   "license": "MIT",
   "private": false,
@@ -8,8 +8,8 @@
     "start": "mdx-deck deck.mdx"
   },
   "dependencies": {
-    "@100shapes/on-deck-core": "^0.1.0",
-    "@100shapes/on-deck-layouts": "^0.1.0",
-    "@100shapes/on-deck-theme": "^0.1.0"
+    "@100shapes/on-deck-core": "^0.1.1",
+    "@100shapes/on-deck-layouts": "^0.1.1",
+    "@100shapes/on-deck-theme": "^0.1.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@100shapes/on-deck-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/main.js",
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@100shapes/on-deck-core": "^0.1.0"
+    "@100shapes/on-deck-core": "^0.1.1"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [

@@ -10,7 +10,8 @@
     "directory": "packages/example-deck"
   },
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
   },
   "dependencies": {
     "@100shapes/on-deck-core": "^0.1.5",

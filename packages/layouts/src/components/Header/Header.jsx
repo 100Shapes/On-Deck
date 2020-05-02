@@ -10,13 +10,13 @@ const Header = ({ parts }) => {
     <MdxDeckHeader>
       <Box
         sx={{
-          width: '100%',
-          position: 'absolute',
-          zIndex: 2,
-          top: 0,
           left: 0,
-          py: 4,
+          position: 'absolute',
           px: 6,
+          py: 4,
+          top: 0,
+          width: '100%',
+          zIndex: 2,
         }}
       >
         <Styled.p

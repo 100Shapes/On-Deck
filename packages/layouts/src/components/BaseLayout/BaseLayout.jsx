@@ -4,7 +4,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 
 // eslint-disable-next-line react/prop-types
-const BaseLayout = ({ children, justify }) => (
+const BaseLayout = ({ children, justify, breadcrumb }) => (
   <Flex
     sx={{
       flexDirection: 'column',
@@ -14,7 +14,7 @@ const BaseLayout = ({ children, justify }) => (
       width: '100%',
     }}
   >
-    <Header />
+    <Header parts={breadcrumb} />
     {children}
     <Footer />
   </Flex>

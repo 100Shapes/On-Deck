@@ -5,6 +5,11 @@
   "author": "Michele Memoli <michele@100shapes.com>",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:100Shapes/On-Deck.git",
+    "directory": "packages/theme"
+  },
   "scripts": {
     "precommit": "lint-staged"
   },

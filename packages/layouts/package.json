@@ -5,6 +5,11 @@
   "license": "MIT",
   "main": "src/main.js",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:100Shapes/On-Deck.git",
+    "directory": "packages/layouts"
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

@@ -21,6 +21,7 @@
   },
   "peerDependencies": {
     "@mdx-deck/gatsby-plugin": "^4.1.1",
+    "mdx-deck": "^4.1.1",
     "react": "^16.13.1",
     "theme-ui": "^0.3.1"
   },

@@ -4,8 +4,8 @@ import { jsx, Box } from 'theme-ui';
 import Base from '../BaseLayout';
 
 // eslint-disable-next-line react/prop-types
-const Grid = ({ children, numOfRows, justify, breadcrumb }) => (
-  <Base justify={justify} breadcrumb={breadcrumb}>
+const Grid = ({ children, numOfRows, justify, breadcrumb, theme }) => (
+  <Base theme={theme} justify={justify} breadcrumb={breadcrumb}>
     <Box
       sx={{
         display: 'grid',
@@ -24,6 +24,7 @@ Grid.defaultProps = {
   numOfRows: 2,
   justify: 'flex-start',
   breadcrumb: [],
+  theme: 'default',
 };
 
 export default Grid;

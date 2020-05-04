@@ -1,13 +1,18 @@
 /** @jsx jsx */
-import { jsx, Box, Styled } from 'theme-ui';
+import { jsx, Flex, Styled } from 'theme-ui';
+import { useDeck } from 'mdx-deck';
 
 // eslint-disable-next-line react/prop-types
 const Footer = () => {
   const year = new Date().getFullYear();
   const copyright = `Copyright © ${year} 100 Shapes Ltd. All rights reserved.`;
+  const { index: currentIndex, length: pagesLength } = useDeck();
+  const progressStr = `${currentIndex + 1} / ${pagesLength}`;
+
   return (
-    <Box
+    <Flex
       sx={{
+        justifyContent: 'space-between',
         width: '100%',
         position: 'absolute',
         zIndex: 2,
@@ -24,7 +29,14 @@ const Footer = () => {
       >
         {copyright}
       </Styled.p>
-    </Box>
+      <Styled.p
+        sx={{
+          variant: 'textStyles.small',
+        }}
+      >
+        {progressStr}
+      </Styled.p>
+    </Flex>
   );
 };
 

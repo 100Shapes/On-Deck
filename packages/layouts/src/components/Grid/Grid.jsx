@@ -9,8 +9,8 @@ const Grid = ({ children, numOfRows, justify, breadcrumb, theme }) => (
     <Box
       sx={{
         display: 'grid',
-        gridColumnGap: 79,
-        gridRowGap: 48,
+        gridColumnGap: `${(100 * 79) / 1920}vw`,
+        gridRowGap: `${(100 * 48) / 1920}vw`,
         gridTemplateColumns: 'repeat(6, 1fr)',
         gridTemplateRows: `repeat(${numOfRows}, min-content)`,
       }}

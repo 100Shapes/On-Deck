@@ -2,14 +2,12 @@
 /** @jsx jsx */
 import { jsx, Flex, useColorMode } from 'theme-ui';
 import React from 'react';
-import { useDeck } from 'mdx-deck';
 import Header from '../Header';
 import Footer from '../Footer';
 
 // eslint-disable-next-line react/prop-types
 const BaseLayout = ({ children, justify, breadcrumb, theme }) => {
   const [mode, setMode] = useColorMode();
-  const deck = useDeck();
 
   React.useEffect(() => {
     if (mode !== theme) {
@@ -29,7 +27,7 @@ const BaseLayout = ({ children, justify, breadcrumb, theme }) => {
     >
       <Header parts={breadcrumb} />
       {children}
-      <Footer numPages={deck.length} currentIndex={deck.index} />
+      <Footer />
     </Flex>
   );
 };

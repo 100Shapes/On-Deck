@@ -1,15 +1,17 @@
-import palette from './palette';
 import colorModes from './colorModes';
-import styles from './styles';
 import fontsConfig from './fonts';
+import palette from './palette';
+import space from './space';
+import styles from './styles';
 import './global.css';
 
 export default {
   colors: {
-    ...palette,
     ...colorModes.default,
+    ...palette,
     modes: colorModes.options,
   },
   ...fontsConfig,
+  space,
   styles,
 };
